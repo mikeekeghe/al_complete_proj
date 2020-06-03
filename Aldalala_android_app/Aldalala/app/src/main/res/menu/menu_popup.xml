@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/edit"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/edit_details" />
+
+    <item
+        android:id="@+id/add_gallery"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/edit_gallery" />
+
+    <item
+        android:id="@+id/add_feature"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/edit_feature" />
+
+    <item
+        android:id="@+id/review"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/reviews" />
+
+    <item
+        android:id="@+id/delete"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/delete" />
+
+</menu>

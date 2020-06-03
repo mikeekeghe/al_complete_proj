@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="techline.carsapp.ChatActivity">
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:layout_above="@+id/linearLayout2"
+        app:stackFromEnd="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:divider="@null"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:id="@+id/linearLayout2">
+
+        <EditText
+            android:id="@+id/editChat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:hint="@string/enter_message_here"
+            android:textColorHint="@color/text_color"
+            android:background="@drawable/xml_rounded_border" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xml_rounded_button_bg"
+            android:text="@string/send"
+            android:layout_marginLeft="@dimen/space_5"
+            android:layout_marginStart="@dimen/space_5"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

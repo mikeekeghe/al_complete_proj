@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context="techline.carsapp.Add_postActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_10"
+            android:layout_marginRight="@dimen/space_10"
+            android:layout_marginTop="@dimen/space_10"
+            android:orientation="vertical">
+
+            <util.MyTextView
+                android:id="@+id/tv_add_post_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/add_sale"
+                android:textColor="@color/text_color" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:gravity="center"
+                android:text="@string/step1"
+                android:textColor="@color/text_color" />
+
+            <TextView
+                android:id="@+id/rent_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="@string/payment_details"
+                android:textColor="@color/text_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_buy_or_rent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/sell_or_rent"
+                    android:textColor="@color/text_color" />
+
+                <Spinner
+                    android:id="@+id/et_add_post_title"
+                    style="@android:style/Widget.Holo.Light.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_color" />
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ti_add_post_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:textColorHint="@color/white">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/xml_bottom_border_white"
+                    android:padding="@dimen/space_10">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/ti_add_post_price_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/white"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/tv_add_post_currency"
+                        android:layout_toStartOf="@+id/tv_add_post_currency">
+
+                        <EditText
+                            android:id="@+id/et_add_post_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_toLeftOf="@+id/textView18"
+                            android:layout_toStartOf="@+id/textView18"
+                            android:background="@android:color/transparent"
+                            android:ems="10"
+                            android:hint="@string/price_for_sale"
+                            android:inputType="number"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/text_color" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/tv_add_post_currency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/ti_add_post_price_2"
+                        android:layout_alignBottom="@+id/ti_add_post_price_2"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/rs"
+                        android:textColor="@color/text_color"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ti_add_post_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:textColorHint="@color/white">
+
+                <EditText
+                    android:id="@+id/et_add_post_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@drawable/xml_bottom_border_white"
+                    android:ems="10"
+                    android:hint="@string/write_about_sale"
+                    android:inputType="textMultiLine"
+                    android:maxLength="240"
+                    android:padding="@dimen/space_10"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_color" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textSize="10sp"
+                android:text="@string/allow_chars"
+                android:textColor="@color/text_color" />
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_10"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/choose_category"
+                    android:textColor="@color/text_color" />
+
+                <Spinner
+                    android:id="@+id/sp_add_post_category"
+                    style="@android:style/Widget.Holo.Light.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/white" />
+
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/mfg_year"
+                    android:textColor="@color/text_color" />
+
+                <Spinner
+                    android:id="@+id/sp_add_post_year"
+                    style="@android:style/Widget.Holo.Light.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/drive_in_km"
+                    android:textColor="@color/text_color" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ti_add_post_km"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/white">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/xml_bottom_border_white"
+                        android:padding="@dimen/space_10">
+
+                        <EditText
+                            android:id="@+id/et_add_post_km"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_toLeftOf="@+id/textView23"
+                            android:layout_toStartOf="@+id/textView23"
+                            android:background="@android:color/transparent"
+                            android:ems="10"
+                            android:inputType="number"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/text_color" />
+
+                        <TextView
+                            android:id="@+id/textView23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/et_add_post_km"
+                            android:layout_alignBottom="@+id/et_add_post_km"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/km"
+                            android:textColor="@color/text_color"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/owner_type"
+                    android:textColor="@color/text_color" />
+
+                <Spinner
+                    android:id="@+id/sp_add_post_ownertype"
+                    style="@android:style/Widget.Holo.Light.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView24546"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/select_city"
+                    android:textColor="@color/text_color" />
+
+                <Spinner
+                    android:id="@+id/sp_add_post_city"
+                    style="@android:style/Widget.Holo.Light.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/white" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_add_post_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_10"
+                android:background="@drawable/xml_rounded_button_bg"
+                android:text="@string/continue_step_2"
+                android:textColor="@color/text_color" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<include
+        android:id="@+id/footer_image"
+        layout="@layout/footer_image" />-->
+
+</RelativeLayout>

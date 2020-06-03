@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "149293985383",
+    "firebase_url": "https://aldalala-15fdf.firebaseio.com",
+    "project_id": "aldalala-15fdf",
+    "storage_bucket": "aldalala-15fdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149293985383:android:39810fa23470893dc72ec2",
+        "android_client_info": {
+          "package_name": "techline.carsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149293985383-c19hlhib6lmmqq0r5oeueaq65b182vvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbwCjL6yMwRwuPupKwWwntfAWAPX5Hcz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149293985383-c19hlhib6lmmqq0r5oeueaq65b182vvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

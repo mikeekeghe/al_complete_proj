@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="techline.carsapp.FilterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_bg"
+        android:padding="@dimen/space_10"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="@string/filter_by"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:drawableLeft="@drawable/ic_search_27"
+            android:drawableStart="@drawable/ic_search_27"
+            android:gravity="center_vertical"
+            android:text="@string/apply_now"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="@dimen/space_8"
+            android:layout_marginRight="@dimen/space_8"
+            android:layout_toLeftOf="@+id/textView8"
+            android:layout_toStartOf="@+id/textView8"
+            android:drawableLeft="@drawable/ic_search_25"
+            android:drawableStart="@drawable/ic_search_25"
+            android:gravity="center_vertical"
+            android:text="@string/clear_all"
+            android:textColor="@color/colorPrimary" />
+    </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/bg_color"
+        app:cardElevation="@dimen/space_5"
+        app:cardUseCompatPadding="true"
+                app:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_10"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/xml_bottom_border_white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="@dimen/space_10"
+                android:hint="@string/search_hint"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_color" />
+
+            <Spinner
+                android:id="@+id/sp_search"
+                android:layout_marginTop="@dimen/space_5"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"/>
+
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_marginTop="@dimen/space_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/xml_rounded_button_bg"
+                android:text="@string/search"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="@dimen/space_10"
+                    android:layout_marginRight="@dimen/space_10"
+                    android:layout_marginBottom="@dimen/space_10"
+
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_search_by_brand"
+                        style="@android:style/Widget.Holo.Light.Spinner"
+                        android:hint="@string/eg_toyota_honda"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/text_color" />
+                    android:backgroundTint="@color/white" />
+
+                    <Button
+                        android:id="@+id/btn_search_by_brand"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/xml_rounded_button_bg"
+                        android:text="@string/search_by_brand"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginLeft="@dimen/space_10"
+                    android:layout_marginRight="@dimen/space_10"
+                    android:layout_marginBottom="@dimen/space_10"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_search_by_model"
+                        style="@android:style/Widget.Holo.Light.Spinner"
+                        android:layout_width="match_parent"
+                        android:hint="@string/search_by_model"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/text_color" />
+                    android:backgroundTint="@color/white" />
+
+                    <Button
+                        android:id="@+id/btn_search_by_model"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/xml_rounded_button_bg"
+                        android:text="@string/search_by_model"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginLeft="@dimen/space_10"
+                    android:layout_marginRight="@dimen/space_10"
+                    android:layout_marginBottom="@dimen/space_10"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_search_by_year"
+                        style="@android:style/Widget.Holo.Light.Spinner"
+                        android:layout_width="match_parent"
+                        android:hint="1995, 2005 ...."
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/text_color" />
+                    android:backgroundTint="@color/white" />
+
+                    <Button
+                        android:id="@+id/btn_search_by_year"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/xml_rounded_button_bg"
+                        android:text="@string/search_by_year"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_search"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

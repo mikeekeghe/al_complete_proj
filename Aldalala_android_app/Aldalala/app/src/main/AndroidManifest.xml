@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="techline.carsapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".Payment"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".All_postRentActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ContactUsActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TermsActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LanguageChangedActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <service android:name="fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+     Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" /> <!-- start internet connection receiver -->
+        <receiver
+            android:name="util.ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver> <!-- end internet connection receiver -->
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Post_detailActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".FilterActivity"
+            android:label="@string/search_title" />
+        <activity android:name=".Add_postActivity" />
+        <activity
+            android:name=".Add_post_galleryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".My_postActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Add_post_attributeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Edit_profileActivity" />
+        <activity android:name=".Change_passwordActivity" />
+        <activity
+            android:name=".ChatActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".CityActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReviewActivity"
+            android:label="@string/reviews" />
+        <activity
+            android:name=".Chat_client_listActivity"
+            android:label="@string/chat_title" />
+        <activity
+            android:name=".My_favoriteActivity"
+            android:label="@string/my_favorites" />
+        <activity
+            android:name=".ForgotActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/notification" />
+        <activity
+            android:name=".Notification_detailActivity"
+            android:label="@string/notification" />
+        <activity
+            android:name=".All_postActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>

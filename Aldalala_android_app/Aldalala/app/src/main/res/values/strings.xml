@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">الدلالة</string>
+    <string name="forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="password">كلمه السر</string>
+    <string name="navigation_drawer_close"> إغلاق درج التنقل </string>
+        
+    <string name="action_settings"> الإعدادات </string>
+        
+    <string name="add_your_post"> إضافة مشاركتك </string>
+        
+    <string name="deal_in_location"> صفقة مقترحة في موقعك </string>
+        
+    <string name="search_model"> نموذج البحث والسعر وما إلى ذلك ... </string>
+        
+    <string name="user_manage"> إدارة المستخدم </string>
+        
+    <string name="user_profile"> ملف تعريف المستخدم </string>
+        
+    <string name="my_posts"> مشاركاتي </string>
+        
+    <string name="my_favorites"> المفضلة </string>
+        
+    <string name="ads"> ADS </string>
+        
+    <string name="specifications"> المواصفات </string>
+        
+    <string name="details"> التفاصيل </string>
+        
+    <string name="owner_contact"> جهة اتصال المالك </string>
+        
+    <string name="reviews"> المراجعات </string>
+        
+    <string name="similar_products"> منتجات مماثلة </string>
+        
+    <string name="filter_by"> تصفية حسب </string>
+        
+    <string name="clear_all"> مسح الكل </string>
+        
+    <string name="call"> مكالمة </string>
+        
+    <string name="chat"> الدردشة </string>
+        
+    <string name="brief_about_ad"> ملخص عن الإعلان </string>
+        
+    <string name="post_an_ad"> نشر إعلان </string>
+        
+    <string name="edit_gallery"> تحرير صور المعرض </string>
+        
+    <string name="profile_pic_note"> الحفاظ على صورة الملف الشخصي للإعلان </string>
+        
+    <string name="post_new_ad"> نشر إعلان جديد </string>
+        
+    <string name="ad_title"> عنوان الإعلان * </string>
+        
+    <string name="phone"> الهاتف * </string>
+        
+    <string name="birth_date"> تاريخ الميلاد: \ u0020 </string>
+        
+    <string name="reset_password"> إعادة تعيين كلمة المرور </string>
+        
+    <string name="register_later"> التسجيل لاحقًا </string>
+        
+    <string name="or"> أو</string>
+        
+    <string name="login"> تسجيل الدخول </string>
+        
+    <string name="register_new"> تسجيل جديد </string>
+        
+    <string name="email_id"> معرف البريد الإلكتروني </string>
+        
+    <string name="error_invalid_email"> عنوان البريد الإلكتروني هذا غير صالح </string>
+        
+    <string name="error_invalid_password"> كلمة المرور هذه قصيرة جدًا </string>
+        
+    <string name="error_field_required"> هذا الحقل مطلوب </string>
+        
+    <string name="register"> التسجيل </string>
+    <string name="re_password"> إعادة كلمة المرور </string>
+        
+    <string name="mobile_no"> رقم الجوال </string>
+        
+    <string name="full_name"> الاسم الكامل </string>
+        
+    <string name="phone_to_short"> رقم الهاتف هذا قصير جدًا </string>
+        
+    <string name="password_not_match"> تطابق كلمة المرور غير المتطابقة </string>
+        
+    <string name="select_city"> حدد المدينة </string>
+        
+    <string name="continue_with_city"> استمر في اختيار المدينة </string>
+        
+    <string name="city_note"> سيسمح لك الموقع بتصفية السجلات \ nas حسب منطقتك </string>
+        
+    <string name="front_side"> الجانب الأمامي * </string>
+        
+    <string name="back_side"> الجانب الخلفي * </string>
+        
+    <string name="inner_look"> نظرة داخلية * </string>
+        
+    <string name="outer_look"> المظهر الخارجي * </string>
+        
+    <string name="other"> أخرى </string>
+        
+    <string name="continue_to_upload"> متابعة التحميل </string>
+        
+    <string name="continue_step_2"> استمر في الخطوة 2 </string>
+        
+    <string name="color"> اللون </string>
+        
+    <string name="fuel_type"> نوع الوقود </string>
+        
+    <string name="gear_type"> نوع الترس </string>
+        
+    <string name="cc"> CC </string>
+        
+    <string name="finish_publish"> إنهاء ونشر </string>
+        
+    <string name="feature_sale"> ميزة للبيع </string>
+        
+    <string name="step1"> الخطوة 1 من 3 </string>
+        
+    <string name="step3"> الخطوة 3 إلى 3 </string>
+        
+    <string name="step2"> الخطوة 2 إلى 3 </string>
+        
+    <string name="please_select_city"> يرجى تحديد المدينة </string>
+        
+    <string name="title_for_sale"> عنوان البيع * </string>
+        
+    <string name="price_for_sale">"السعر * "</string>
+        
+    <string name="choose_category"> اختر الفئة * </string>
+        
+    <string name="mfg_year"> Mfg عام * </string>
+        
+    <string name="drive_in_km"> القيادة (بالكيلومتر) * </string>
+    <string name="owner_type"> نوع المالك * </string>
+        
+    <string name="km"> KM </string>
+        
+    <string name="rs"> RS </string>
+        
+    <string name="write_about_sale">اكتب عنه *</string>
+        
+    <string name="allow_chars"> اسمح بـ 240 حرفًا للوصف تقريبًا </string>
+        
+    <string name="email_required"> معرف البريد الإلكتروني (مطلوب) </string>
+        
+    <string name="password_required"> كلمة المرور (مطلوبة) </string>
+        
+    <string name="name_required"> الاسم الكامل (مطلوب) </string>
+        
+    <string name="mobile_required"> رقم الجوال (مطلوب) </string>
+        
+    <string name="repassword_required"> إعادة كلمة المرور (مطلوب) </string>
+        
+    <string name="add_sale"> إضافة تخفيضات </string>
+        
+    <string name="edit_sale"> تعديل البيع </string>
+        
+    <string name="choose_location"> اختر الموقع </string>
+        
+    <string name="image_already_uploaded"> تم تحميل هذه الصورة بالفعل </string>
+        
+    <string name="camera"> الكاميرا </string>
+        
+    <string name="gallery"> المعرض </string>
+        
+    <string name="profile_updated"> تم تحديث الملف الشخصي </string>
+        
+    <string name="profile_pic_updated"> تم تحديث صورة الملف الشخصي </string>
+        
+    <string name="logout"> تسجيل الخروج </string>
+        
+    <string name="change_password"> تغيير كلمة المرور </string>
+        
+    <string name="edit_profile"> تعديل الملف الشخصي </string>
+        
+    <string name="update_Profile"> تحديث الملف الشخصي </string>
+        
+    <string name="title_activity_main2"> نشاط Main2 </string>
+        
+    <string name="old_password_req"> كلمة المرور القديمة (مطلوبة) </string>
+        
+    <string name="new_password_req"> كلمة المرور الجديدة (مطلوبة) </string>
+        
+    <string name="confirm_password_req"> تأكيد كلمة المرور (مطلوب) </string>
+        
+    <string name="send"> إرسال </string>
+        
+    <string name="enter_message_here"> أدخل الرسالة هنا .. </string>
+        
+    <string name="chat_title"> الدردشة </string>
+        
+    <string name="press_back"> اضغط مرة أخرى للخروج. </string>
+    <string name="press_back_gallery"> اضغط للخلف مرة أخرى للخروج من المعرض. </string>
+        
+    <string name="press_back_feature"> اضغط مرة أخرى على الميزات. </string>
+        
+    <string name="record_not_found"> ​​لم يتم العثور على السجل </string>
+        
+    <string name="edit_details"> تعديل التفاصيل </string>
+        
+    <string name="delete"> حذف </string>
+        
+    <string name="your_rating"> تقييمك </string>
+        
+    <string name="your_comment"> تعليقك </string>
+        
+    <string name="comment_here"> تعليقك هنا </string>
+        
+    <string name="add_review"> إضافة مراجعة </string>
+        
+    <string name="descreption"> الوصف: \ u0020 </string>
+        
+    <string name="edit_feature"> تعديل الميزة </string>
+        
+    <string name="cancel">إلغاء</string>
+        
+    <string name="field_requierd"> هذا الحقل مطلوب </string>
+        
+    <string name="note_review"> لا يمكنك المراجعة في مشاركتك </string>
+        
+    <string name="note_call"> هل ترغب في إجراء المكالمة؟ </string>
+        
+    <string name="owner_name"> اسم المالك: \ u0020 </string>
+        
+    <string name="owner_email"> البريد الإلكتروني للمالك: \ u0020 </string>
+        
+    <string name="owner_phone"> رقم هاتف المالك: \ u0020 </string>
+        
+    <string name="added_favorite"> تمت إضافة المفضلة </string>
+        
+    <string name="remove_favorite"> إزالة المفضلة </string>
+        
+    <string name="clear_all_favorite"> محو كل المفضلة </string>
+        
+    <string name="submit"> إرسال </string>
+        
+    <string name="search_hint"> البحث عن سيارات جديدة ، سيارات قديمة ، إلخ .. </string>
+        
+    <string name="connect"> التواصل </string>
+        
+    <string name="about_us"> من نحن </string>
+        
+    <string name="terms_conditions"> الشروط والأحكام الشروط </string>
+        
+    <string name="review_us"> راجعنا </string>
+        
+    <string name="share"> شارك مع الأصدقاء </string>
+    <string name="search" translatable="true"> بحث </string>
+        
+    <string name="view_all"> عرض الكل </string>
+        
+    <string name="clear_favorite_note"> هل أنت متأكد! لن تمسح قائمة المفضلة </string>
+        
+    <string name="delete_post_note"> هل أنت متأكد من حذف هذه المشاركة؟ </string>
+        
+    <string name="in_complete"> مكتملة </string>
+        
+    <string name="add_photo"> أضف صورة! </string>
+        
+    <string name="take_photo"> التقاط صورة </string>
+        
+    <string name="choose_from_library"> اختر من المكتبة </string>
+        
+    <string name="kms"> كم </string>
+        
+    <string name="image_succesfully_updated"> تم تحديث الصورة بنجاح. </string>
+        
+    <string name="image_succesfully_added"> تمت إضافة الصورة بنجاح. </string>
+        
+    <string name="navigation_drawer_open"> افتح درج التنقل </string>
+    <string name="notification">"إشعارات "</string>
+    <string name="communicate">"نقل "</string>
+    <string name="able_to_call">لا يمكنك أن تتصل بنفسك</string>
+    <string name="apply_now">"قدم الآن "</string>
+    <string name="english">الإنجليزية</string>
+    <string name="arabic">"عربى "</string>
+    <string name="record_not_found_location">"السجل غير موجود في موقعك. "</string>
+    <string name="language_changed">"تم تغيير اللغة بنجاح "</string>
+    <string name="new_languages">"لقد تم تحويلك إلى لغة جديدة "</string>
+    <string name="language">"لغة "</string>
+    <string name="sell_or_rent">"بيع او ايجار "</string>
+    <string name="sell">يبيع</string>
+    <string name="rent">"تأجير "</string>
+    <string name="select_one">--حدد واحد --</string>
+    <string name="about">" عن التطبيق   يوفر لك تطبيق الدلالة أفضل الصفقات الممكنة ، مجموعة من خيارات الشراء ، تأجير السيارات في السودان "</string>
+    <string name="terms">" الشروط والأحكام \n\n شروط الاستخدام \n\n مرحبا بكم في تطبيق الدلالة \n\n تطبيق الدلالة يقدم خدماته لك رهناً بالشروط التالية. \n\n إذا قمت بزيارة أو إستخدام إحدى خدماتنا فإنك تقبل بهذه الشروط، الرجاء قراءتها بعناية. بالإضافة إلى ذلك، عند استخدام أي خدمة حالية أو مستقبلية في تطبيق الدلالة أو زيارة أو استخدام أي من الأعمال لشركة الدلالة، سواء أدرجت أو لم تدرج في موقع الدلالة ، سوف تخضع أيضا للمبادئ التوجيهية والشروط التي تنطبق على هذه الخدمة أو الأعمال التجارية. \n\n محتوى الإعلان \n\n المحتوى الموجود على تطبيق الدلالة نابع من المستخدمين والأعضاء المسجلين في الدلالة، وبالتالي لا تتحمل الدلالة اي مسؤولية عن المحتوى المُضاف ويتحمل المستخدمين كافة المسؤولية. تقوم الدلالة بدور رقابي على الإعلانات والمحتوى المُضاف من قبل المستخدمين بطريقتين، قبل الإضافة (ولا تشمل جميع الإعلانات) حيث ان بعض الإعلانات لا تظهر على الموقع إلا بموافقة إدارة الموقع، والنوع الثاني، بعد الإضافة، حيث تظهر الإعلانات على الموقع ومن ثم يتم مراقبتها وتصحيحها إن لزم الأمر. ولذلك، لا يسمح للعضو بنشر إعلانات بمحتوى مُخالف لسياسة المحتوى موقع الدلالة سواء على الموقع الإكتروني أو على صفحات التواصل الإجتماعي. مع العلم إن مثل هذه الإعلانات سوف يتم حذفها مباشرة من قبل مسؤولي الموقع. وكمثال عليها لا للحصر: \n\n الإعلانات المكررة، حيث لا يسمح بتكرار الإعلان أكثر من مرة واحدة، بدلاً عن ذلك يمكن إعادة نشرها. والعضويات المكررة حيث لا يجوز أن يمتلك العضو أكثر من عضوية واحدة، وسيتم حذف العضويات الجديدة وابقاء على الأقدم، حيث يتم التأكيد عليها من قبل فريق مراقبة المحتوى ومن ثم تعطيلها. \n\n إعلانات النصب والاحتيال مثل: (إعلانات وهمية للسيارات والتي هدفها النصب على مستخدمي الموقع) حيث يتم التحقق منها من قبل فريق مراقبة المحتوى ومن ثم تعطيلها. \n\n الإعلانات التي ثبت بأن المعلن عنها قام بمخالفة وتم التبليغ عنها من قبل مستخدمين آخرين من الموقع أو ثبت أنها تسبب إزعاج لمستخدمين آخرين. حيث يتم التأكيد عليها من قبل فريق مراقبة المحتوى ومن ثم تعطيلها. \n\n إعلانات خدمات شطب السيارات القديمة والغير صالحة او منتهية التسجيل وإعلانات سيارات او دراجات لا توجد لها تسجيل ساري الصلاحية . وهي غير مسموحة ويعاقب القانون على حيازتها أو الإتجار بها. \n\n الإعلانات غير الواضحة و ليس لها صلة بالهدف الذي من أجله أنشئت الدلالة ، وعلى سبيل المثال لا الحصر الإعلانات التالية: (طلب مساعدات مالية، التبليغ عن شخص أو إعلانات التشهير) وهدفها أن تُشهر بالأفراد والشركات. \n\n إعلانات مطلوب مساعدة مالية، قروض وغيرها والتي تطلب إرسال مبالغ مالية مسبقاً. \n\n الإعلانات العادية، ولكن جزء من مواصفات الإعلان موجود على رابط فيسبوك أو رابط خارجي يتم نقل أو تنزيل ثم تحميل جزء مواصفات الإعلان من صفحة الفيسبوك أو الرابط الخارجي إلى داخل الإعلان ويتم حذف الرابط. \n\n الإعلانات الدولية عن سيارة موجودة خارج السودان. \n\n نصائح التعامل الآمن \n\n نصائح لتتعرف على الإعلانات المشكوك فيها: \n\n لا ترسل أي مبالغ مالية \n\n عادة ما يطلب المعلنون المشكوك بأمرهم تحويل مبالغ مالية (أو جزء من المبلغ المالي) إلكترونياً \n\n صيغة الإعلان ووجود الأخطاء اللغوية والإملائية \n\n  صور المنتج \n\n عادة ما يستخدم المحتالين صور من الإنترنت، لانه يستسهل الأمر، ولا يوجد لديه سيارة فعلياً. \n\n إعلان بعرض مغري غير منطقي \n\n عادة ما يقوم المعلنون المشكوك بأمرهم انّ يضعوا اعلان مغري بعض يكاد لا يصدق . مثال سيارة بحالة رائعة للبيع لدواعى السفر بنصف الثمن، لذا عليك ان تتوخى الحذر عند التعامل مع مثل هؤلاء المعلنين. \n\n تأكد من سعر المنتج \n\n عادة ما يضع المعلنون المشكوك بأمرهم أسعاراً غير منطقية لجذب المشترين والإحتيال عليهم، تأكد من متوسط سعر المنتج الذي ترغب في شراءه. \n\n الشروع في إتمام الصفقة: \n\n تفحص السيارة المُراد شراءها بشكل جيد للتأكد من سلامتها، كما ننصحك بالتأكد من الأوراق الثبوتية (في حال تطلب الأمر) \n\n الخصوصية \n\n يرجى مراجعة سياسة الخصوصية والتي تحكم أيضا زيارتك لتطبيق الدلالة لفهم أكثر لممارساتنا. \n\n حقوق الطبع والنشر للمحتوى \n\n جميع المحتويات الواردة في هذا الموقع ، مثل النصوص والرسومات والشعارات ، والأيقونات، والصور والصوت، والتنزيلات الرقمية ، وتجميع البيانات، هو ملك تطبيق الدلالة وهي مضمونه ومحمية. جميع محتويات هذا الموقع هي ملكية حصرية لتطبيق الدلالة. فلا يحق لك نسخ أو تعديل أي شيء عالموقع من حيث المحتوى. كما لا يحق لك الدخول إلى قاعدة البيانات الخاصة او استخدام اي برمجية تخترق صفحات موقع سيارة. \n\n نفي الضمان وعدم تحمل المسؤولية \n\n إنك تقر وتوافق على أن استخدام الموقع الالكتروني والخدمات هو تماماً على مسؤوليتك الخاصة ، وأن الموقع و الخدمة هي مقدمة على أساس \"كما هي\" أو \" كما هي متاحة\" دون أي ضمانات من أي نوع. الدلالة لا تتحمل أية ضمانات أو إقرارات حول دقة أو اكتمال محتوى الموقع أو محتوى أي مواقع طرف ثالث له علاقة بالموقع و لا تتحمل أية مسؤولية أو مسائلة لأي أخطاء ، أو الإصابة الشخصية أو أضرار في الممتلكات من أي نوع، الناتجة عن الوصول إليك واستخدام الموقع والخدمة، أي دخول غير مصرح إليك أو استخدام خدمتنا و / أو أي جميع المعلومات الشخصية و / أو المعلومات المالية المخزنة، الفيروسات، أو ما شابه ذلك والتي قد تكون مرسلة إليك أو عبر الموقع الإلكتروني من قبل أي طرف ثالث، و / أو أي أخطاء أو حذف في أي محتوى أو عن أي خسارة أو ضرر من أي نوع يتم تكبده كنتيجة لاستعمال أي محتوى تم نشره بالبريد الإلكتروني ، لنقلها أو إتاحتها عبر الموقع الإلكتروني أو الخدمة. الدلالة لا تتحمل المسؤولية عن أي منتج أو الخدمة المعلن عنها أو التي يقدمها طرف ثالث عن طريق الموقع او اي موقع بارتباط تشعبي أو واردة في أي شعار أو دعاية أخرى. \n\n"</string>
+    <string name="contact_details">" البريد الإلكتروني: aldalala.tech@gmail.com\n\n  رقم الهاتف : 0999769895\n\n  ال WhatsApp: +249 99 883 6939\n\n  مجموعة الفيسبوك : دلالة الخرطوم :\n\n  عنوان Url : https://m.facebook.com/aldalala.net/?ref=bookmarks\n\n    "</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="ok">حسنا</string>
+    <string name="cars_for_rent">سيارات للإيجار</string>
+    <string name="email_or_phone">البريد الإلكتروني أو رقم الهاتف</string>
+    <string name="search_by_brand">"البحث بالعلامة التجارية "</string>
+    <string name="search_by_model">"البحث بالنموذج "</string>
+    <string name="search_by_year">البحث بالسنة</string>
+    <string name="eg_toyota_honda">مثل تويوتا ، هوندا ....</string>
+    <string name="how_to_pay">كيفية دفع</string>
+    <string name="search_title">كنك تحويل رصيد علي الرقم 0999769895 MTN  ملحوظة</string>
+    <string name="payment_details">" شكرا لاستخدامك تطبيق الدلالة لنشر اعلانك .سوف نقوم بتاكيد اعلانك عند التاكد من انك قد دفعت رسوم الاعلان. لاتمام الدفع يم  كنك تحويل رصيد علي الرقم 0999769895 MTN  ملحوظة   سعر الاعلان 100 ج.س   "</string>
+    <string name="app_name_title">الدلالة</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<group android:checkableBehavior="single"></group>-->
+
+    <item android:title="@string/user_manage" android:id="@+id/menu_user">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_menu_profile"
+                android:title="@string/user_profile" />
+            <item
+                android:id="@+id/nav_posts"
+                android:icon="@drawable/ic_menu_business"
+                android:title="@string/my_posts" />
+            <item
+                android:id="@+id/nav_favorite"
+                android:icon="@drawable/ic_menu_fav"
+                android:title="@string/my_favorites" />
+            <item
+                android:id="@+id/nav_notification"
+                android:icon="@drawable/ic_menu_notification"
+                android:title="@string/notification" />
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_menu_review"
+                android:title="@string/chat_title" />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_profile"
+                android:title="@string/about_us" />
+            <item
+                android:id="@+id/nav_terms"
+                android:icon="@drawable/ic_menu_terms"
+                android:title="@string/terms_conditions" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_menu_review"
+                android:title="@string/review_us" />
+            <item
+                android:id="@+id/payment"
+                android:icon="@drawable/ic_menu_review"
+                android:title="@string/how_to_pay" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_menu_review"
+                android:title="@string/contact_us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_menu_logout"
+        android:title="@string/logout" />
+
+</menu>

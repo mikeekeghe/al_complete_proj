@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context="techline.carsapp.CityActivity">
+
+    <!--<ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/space_10"
+        app:srcCompat="@drawable/app_header_logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+
+    <include
+        android:id="@+id/header_image"
+        layout="@layout/header_image" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/header_image"
+        android:background="#F3EDED"
+        android:padding="@dimen/space_10">
+
+        <util.MyTextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/choose_location"
+            android:textColor="#0C0404" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView27"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/space_5"
+            android:gravity="center"
+            android:text="@string/city_note"
+            android:textColor="#0C0404" />
+
+        <EditText
+            android:id="@+id/et_city_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="@dimen/space_10"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@drawable/xml_rounded_border"
+            android:hint="@string/select_city"
+            android:textColor="#e5e5e5"
+            android:textColorHint="@color/text_hint" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_city_continue"
+            android:layout_below="@+id/et_city_select"
+            android:layout_marginBottom="@dimen/space_10"
+            android:layout_marginTop="@dimen/space_10" />
+
+        <Button
+            android:id="@+id/btn_city_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/xml_rounded_button_bg"
+            android:text="@string/continue_with_city"
+            android:textColor="@color/text_color" />
+
+    </RelativeLayout>
+
+    <!--<include
+        android:id="@+id/footer_image"
+        layout="@layout/footer_image" />-->
+
+</RelativeLayout>

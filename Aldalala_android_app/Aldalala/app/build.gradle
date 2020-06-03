@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    useLibrary 'org.apache.http.legacy'
+
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "techline.carsapp"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 2
+        versionName "2.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+repositories {
+    mavenCentral() // jcenter() works as well because it pulls from Maven Central
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    implementation('org.apache.httpcomponents:httpmime:4.3') {
+        exclude module: "httpclient"
+    }
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.squareup.okhttp3:okhttp:4.4.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.github.clans:fab:1.6.4'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
+    implementation 'com.google.firebase:firebase-messaging:20.1.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.daimajia.swipelayout:library:1.2.0@aar'
+    //Paper Library
+    implementation 'io.paperdb:paperdb:2.5'
+    testImplementation 'junit:junit:4.13'
+}
+
+apply plugin: 'com.google.gms.google-services'

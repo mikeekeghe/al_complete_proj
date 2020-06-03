@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="techline.carsapp.MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:gravity="start"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/space_15"
+                android:paddingEnd="@dimen/space_20"
+                android:paddingRight="@dimen/space_20"
+                android:paddingTop="@dimen/space_15">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/app_header_logo" />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_home_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_5"
+                android:layout_marginEnd="@dimen/space_10"
+                android:layout_marginLeft="@dimen/space_10"
+                android:layout_marginRight="@dimen/space_10"
+                android:layout_marginStart="@dimen/space_10"
+                android:layout_marginTop="@dimen/space_5"
+                android:background="@drawable/rounded_corner_border"
+                android:drawableEnd="@drawable/icon_search"
+                android:drawableRight="@drawable/icon_search"
+                android:gravity="center_vertical"
+                android:padding="@dimen/space_5"
+                android:text="@string/search_model"
+                android:textColor="@color/color_bg" />
+
+            <!--<android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_app_bar_cat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />-->
+
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
